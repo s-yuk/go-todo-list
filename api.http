@@ -1,0 +1,17 @@
+@baseurl = http://localhost:1323/api/v1
+
+GET {{baseurl}}/todo HTTP/1.1
+###
+GET {{baseurl}}/todos HTTP/1.1
+###
+POST {{baseurl}}/todo HTTP/1.1
+###
+POST {{baseurl}}/todos HTTP/1.1
+###
+PUT {{baseurl}}/todo/save HTTP/1.1
+###
+PUT {{baseurl}}/todo/update HTTP/1.1
+###
+PUT {{baseurl}}/todo/updates HTTP/1.1
+###
+DELETE {{baseurl}}/todo/delete HTTP/1.1
